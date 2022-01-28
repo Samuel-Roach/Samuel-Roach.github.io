@@ -1,0 +1,19 @@
+.stroke-blue {
+    -webkit-text-stroke: 1px #78DCE8;
+}
+
+.title-margin {
+    margin-top: 17%;
+}
+
+.profile-hide-pointer {
+    pointer-events: none;
+    top: 20.25rem;
+    z-index: 20;
+}
+
+.ping-div {
+    top: 20.75rem;
+    left: 20.25rem;
+    z-index: 0;
+}

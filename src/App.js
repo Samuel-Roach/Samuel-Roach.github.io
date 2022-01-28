@@ -20,7 +20,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div class="bg-gray-900 w-full h-full">
+    <div class="bg-[#2D2A2E] w-full h-full flex">
       <Title />
     </div>
   );

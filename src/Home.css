@@ -1,5 +1,9 @@
 .text-container {
-    margin-top: 35%;
-    margin-bottom: 10%;
+    margin-top: 40vh;
+    margin-bottom: 5vh;
+    margin-right: 12vw;
     user-select: none;
+    font-size: 3.45vw;
+    line-height: 1;
+    gap: 6vh;
 }

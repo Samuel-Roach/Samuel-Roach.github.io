@@ -1,12 +1,19 @@
 .profile-hide-pointer {
     pointer-events: none;
-    top: 20.25rem;
+    /* top: 37%;
+    left: 20%; */
+    left: 20vw;
+    top: 37%;
+    height: 11.9vw;
+    width: 11.9vw;
     z-index: 20;
 }
 
 .ping-div {
-    top: 20.75rem;
-    left: 20.5rem;
+    left: 20vw;
+    top: 37%;
+    height: 11.9vw;
+    width: 11.9vw;
     z-index: 0;
     opacity: 0.2;
 }

@@ -1,8 +1,9 @@
 import './App.css';
-import Home from './Home.js';
-import Skills from './Skills.js'
+import Home from './Home';
+import Skills from './Skills'
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Blog from './Blog';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="skills" element={<Skills />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
       </Routes>
     </div>
   );

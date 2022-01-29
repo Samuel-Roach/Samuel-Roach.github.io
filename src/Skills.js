@@ -11,7 +11,7 @@ function Skills() {
                 <PingAvatar image={profile} ping_color="bg-monokai-purple" />
             </div>
             <div class="flex flex-row">
-                <div class="overflow-auto overscroll-contain scrollbar-hide cursor-default w-full">
+                <div class="overflow-auto overscroll-contain scrollbar-hide cursor-default w-screen">
                     <div class="flex flex-col text-container text-white font-bold w-1/2 ml-auto">
                         <p>
                             These are the various&nbsp;
@@ -31,7 +31,7 @@ function Skills() {
                             <OutOfSiteLink color="decoration-monokai-blue" link="https://www.sophos.com/en-us" text="Sophos" /> during my year in industry.
                         </p>
                         <p>
-                            Whilst creating a web application I developed skills in&nbsp;
+                            Whilst creating web applications I have developed skills in&nbsp;
                             <span class="text-monokai-pink">Laravel</span>,&nbsp;
                             <span class="text-monokai-purple">Docker</span> <span> and </span>
                             <span class="text-monokai-blue">TailwindCSS</span>.

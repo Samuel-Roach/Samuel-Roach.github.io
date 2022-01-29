@@ -12,7 +12,7 @@ function Home() {
                 <PingAvatar image={profile} ping_color="bg-monokai-purple" />
             </div>
             <div class="flex flex-row">
-                <div class="overflow-auto overscroll-contain scrollbar-hide cursor-default w-full">
+                <div class="overflow-auto overscroll-contain scrollbar-hide cursor-default w-screen">
                     <div class="flex flex-col text-container text-white font-bold w-1/2 ml-auto">
                         <p>
                             Hi there! I'm&nbsp;
@@ -28,6 +28,18 @@ function Home() {
                             <TitleTextLink color="decoration-monokai-yellow" link="portfolio" text="personal" />&nbsp;
                             and <span class="text-monokai-orange">professional</span> environments, becoming adept in&nbsp;
                             <TitleTextLink color="decoration-monokai-blue" link="skills" text="many skills" />.
+                        </p>
+                        <p>
+                            As part of&nbsp;
+                            <OutOfSiteLink color="decoration-monokai-pink" link="https://www.youtube.com/channel/UC_aVtqAvat6xdUpL2NhKfBA" text="CommandShift" />
+                            &nbsp;I have begun releasing videos <span class="text-monokai-purple">teaching</span> basic
+                            computer science <span class="text-monokai-green">concepts</span> to new beginners. 
+                        </p>
+                        <p>
+                            I also try to&nbsp;
+                            <TitleTextLink color="decoration-monokai-orange" link="blog" text="blog" />&nbsp;
+                            as much of my <span class="text-monokai-blue">development process</span> as possible when
+                            working on new <span class="text-monokai-yellow">projects</span>.
                         </p>
                         <p>
                             If you're <span class="text-monokai-green">interested</span> in working together, feel free to&nbsp;

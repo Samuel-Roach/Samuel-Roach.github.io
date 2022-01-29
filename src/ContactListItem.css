@@ -1,0 +1,5 @@
+.contact-list-item {
+    gap: 2vw;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,6 +1,8 @@
 import './App.css';
 import Home from './Home.js';
 import Skills from './Skills.js'
+import Contact from './Contact';
+import Portfolio from './Portfolio';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="skills" element={<Skills />} />
-        <Route path="contact" element={<Home />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

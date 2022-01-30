@@ -1,0 +1,17 @@
+.photo {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10%;
+}
+
+.portfolio-item {
+    gap: 2vw;
+}
+
+.portfolio-item-text {
+    gap: 2vh;
+}
+
+.portfolio-item-description {
+    font-size: 2vw;
+}

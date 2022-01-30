@@ -1,8 +1,6 @@
 import './Contact.css';
 import './OutOfSiteLink';
 import PingAvatar from './PingAvatar';
-import OutOfSiteLink from './OutOfSiteLink';
-import TitleTextLink from './TitleTextLink';
 import profile from './img/profile.png';
 import { RiMailFill } from 'react-icons/ri';
 import { FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
@@ -30,7 +28,7 @@ function Contact() {
                             <ContactListItem text="Samuel Roach" color="decoration-monokai-purple" link="https://www.linkedin.com/in/samuel-roach-08710b183/">
                                 <FaLinkedin />
                             </ContactListItem>
-                            <ContactListItem text="@oberidrk" color="decoration-monokai-blue" link="https://twitter.com/obeidrk">
+                            <ContactListItem text="@obeidrk" color="decoration-monokai-blue" link="https://twitter.com/obeidrk">
                                 <FaTwitterSquare />
                             </ContactListItem>
                         </p>

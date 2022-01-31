@@ -47,7 +47,7 @@ function Portfolio() {
                                 </div>
                             </div>
                         </p>
-                        <p>
+                        {/* <p>
                             <div class="flex flex-row portfolio-item">
                                 <img src={ commandshift } class="photo drop-shadow" alt="The logo for CommandShift"/>
                                 <div class="portfolio-item-text flex flex-col">
@@ -59,7 +59,7 @@ function Portfolio() {
                                     </p>
                                 </div>
                             </div>
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>

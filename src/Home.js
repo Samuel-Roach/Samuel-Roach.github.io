@@ -35,12 +35,12 @@ function Home() {
                             &nbsp;I have begun releasing videos <span class="text-monokai-purple">teaching</span> basic
                             computer science <span class="text-monokai-green">concepts</span> to new beginners. 
                         </p> */}
-                        <p>
+                        {/* <p>
                             I also try to&nbsp;
                             <TitleTextLink color="decoration-monokai-orange" link="blog" text="blog" />&nbsp;
                             as much of my <span class="text-monokai-blue">development process</span> as possible when
                             working on new <span class="text-monokai-yellow">projects</span>.
-                        </p>
+                        </p> */}
                         <p>
                             If you're <span class="text-monokai-green">interested</span> in working together, feel free to&nbsp;
                             <TitleTextLink color="decoration-monokai-purple" link="contact" text="contact me" />!

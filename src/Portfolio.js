@@ -1,9 +1,10 @@
 import './Portfolio.css';
 import PingAvatar from './PingAvatar';
 import OutOfSiteLink from './OutOfSiteLink';
-import TitleTextLink from './TitleTextLink';
 import profile from './img/profile.png';
 import chessbot from './img/chessbot.png';
+import spectrumpy from './img/spectrum-py.png';
+import commandshift from './img/commandshift.png';
 
 function Portfolio() {
     return (
@@ -19,12 +20,8 @@ function Portfolio() {
                             created and worked on.
                         </p>
                         <p>
-                            {/* I have <span class="text-monokai-pink">4 years</span> experience developing in both&nbsp;
-                            <TitleTextLink color="decoration-monokai-yellow" link="portfolio" text="personal" />&nbsp;
-                            and <span class="text-monokai-orange">professional</span> environments, becoming adept in&nbsp;
-                            <TitleTextLink color="decoration-monokai-blue" link="skills" text="many skills" />. */}
                             <div class="flex flex-row portfolio-item">
-                                <img src={ chessbot } class="photo drop-shadow"/>
+                                <img src={ chessbot } class="photo drop-shadow" alt="Screenshot of discord showing ChessBot in use."/>
                                 <div class="portfolio-item-text flex flex-col">
                                     <OutOfSiteLink color="decoration-monokai-green" link="https://github.com/Samuel-Roach/ChessBot" text="ChessBot"/>
                                     <p class="portfolio-item-description">ChessBot is
@@ -35,20 +32,33 @@ function Portfolio() {
                             </div>
                         </p>
                         <p>
-                            As part of&nbsp;
-                            <OutOfSiteLink color="decoration-monokai-pink" link="https://www.youtube.com/channel/UC_aVtqAvat6xdUpL2NhKfBA" text="CommandShift" />
-                            &nbsp;I have begun releasing videos <span class="text-monokai-purple">teaching</span> basic
-                            computer science <span class="text-monokai-green">concepts</span> to new beginners.
+                            <div class="flex flex-row-reverse portfolio-item">
+                                <img src={ spectrumpy } class="photo drop-shadow" alt="Part of the output of passing Never Gonna Give You Up into spectrum-py"/>
+                                <div class="portfolio-item-text flex flex-col text-right">
+                                <OutOfSiteLink color="decoration-monokai-yellow" link="https://github.com/Samuel-Roach/spectrum-py" text="spectrum-py"/>
+                                    <p class="portfolio-item-description">
+                                        spectrum-py is a tool written to generate&nbsp;
+                                        <span class="text-monokai-blue">images</span> based on data from videos.
+                                        Inspired by
+                                        &nbsp;<OutOfSiteLink color="decoration-monokai-pink" link="https://www.reddit.com/r/DataIsBeautiful" text="/r/DataIsBeautiful"/>
+                                        &nbsp;the aim is to allow users to create&nbsp;
+                                        <span class="text-monokai-green">data-driven</span> images from videos.
+                                    </p>
+                                </div>
+                            </div>
                         </p>
                         <p>
-                            I also try to&nbsp;
-                            <TitleTextLink color="decoration-monokai-orange" link="blog" text="blog" />&nbsp;
-                            as much of my <span class="text-monokai-blue">development process</span> as possible when
-                            working on new <span class="text-monokai-yellow">projects</span>.
-                        </p>
-                        <p>
-                            If you're <span class="text-monokai-green">interested</span> in working together, feel free to&nbsp;
-                            <TitleTextLink color="decoration-monokai-purple" link="contact" text="contact me" />!
+                            <div class="flex flex-row portfolio-item">
+                                <img src={ commandshift } class="photo drop-shadow" alt="The logo for CommandShift"/>
+                                <div class="portfolio-item-text flex flex-col">
+                                    <OutOfSiteLink color="decoration-monokai-purple" link="https://www.youtube.com/channel/UC_aVtqAvat6xdUpL2NhKfBA" text="CommandShift"/>
+                                    <p class="portfolio-item-description">
+                                        CommandShift is a <span class="text-monokai-pink">Youtube</span> channel I created aiming to teach the&nbsp;
+                                        <span class="text-monokai-yellow">fundamental</span> basics of computer science in a&nbsp;
+                                        <span class="text-monokai-orange">beginner</span> friendly manner.
+                                    </p>
+                                </div>
+                            </div>
                         </p>
                     </div>
                 </div>

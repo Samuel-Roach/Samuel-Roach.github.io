@@ -28,7 +28,7 @@ function Contact() {
                             <ContactListItem text="Samuel Roach" color="decoration-monokai-purple" link="https://www.linkedin.com/in/samuel-roach-08710b183/">
                                 <FaLinkedin />
                             </ContactListItem>
-                            <ContactListItem text="@obeidrk" color="decoration-monokai-blue" link="https://twitter.com/obeidrk">
+                            <ContactListItem text="@obelistics" color="decoration-monokai-blue" link="https://twitter.com/obelistics">
                                 <FaTwitterSquare />
                             </ContactListItem>
                         </p>

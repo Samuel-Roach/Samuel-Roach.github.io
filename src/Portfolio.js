@@ -5,6 +5,7 @@ import profile from './img/profile.png';
 import chessbot from './img/chessbot.png';
 import spectrumpy from './img/spectrum-py.png';
 import commandshift from './img/commandshift.png';
+import ergastpy from './img/ergast.png';
 
 function Portfolio() {
     return (
@@ -33,6 +34,19 @@ function Portfolio() {
                         </p>
                         <p>
                             <div class="flex flex-row-reverse portfolio-item">
+                                <img src={ ergastpy } class="photo drop-shadow" alt="A Formula One car"/>
+                                <div class="portfolio-item-text flex flex-col text-right">
+                                <OutOfSiteLink color="decoration-monokai-blue" link="https://github.com/Samuel-Roach/ergast-py" text="Ergast-py"/>
+                                    <p class="portfolio-item-description">
+                                        Ergast-py is a comprehensive python wrapper for accessing
+                                        the <span class="text-monokai-green">Ergast</span> Formula One API. It is available for download and
+                                        use from it's <OutOfSiteLink color="decoration-monokai-orange" link="https://pypi.org/project/ergast-py/" text="PyPi"/> page.
+                                    </p>
+                                </div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="flex flex-row portfolio-item">
                                 <img src={ spectrumpy } class="photo drop-shadow" alt="Part of the output of passing Never Gonna Give You Up into spectrum-py"/>
                                 <div class="portfolio-item-text flex flex-col text-right">
                                 <OutOfSiteLink color="decoration-monokai-yellow" link="https://github.com/Samuel-Roach/spectrum-py" text="spectrum-py"/>

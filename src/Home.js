@@ -18,10 +18,10 @@ function Home() {
                             Hi there! I'm&nbsp;
                             <span class="text-monokai-blue">
                                 Samuel Roach
-                            </span>, a software engineer and <span class="text-monokai-yellow">developer</span>. I'm currently in my
-                            third year at&nbsp;
+                            </span>, a software engineer and <span class="text-monokai-yellow">developer</span>. I'm studied
+                            Computer Science for 3 years at&nbsp;
                             <OutOfSiteLink color="decoration-monokai-green" link="https://swansea.ac.uk" text="Swansea University" />
-                            &nbsp;studying Computer Science.
+                            &nbsp;.
                         </p>
                         <p>
                             I have <span class="text-monokai-pink">4 years</span> experience developing in both&nbsp;

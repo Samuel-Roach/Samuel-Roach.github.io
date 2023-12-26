@@ -1,9 +1,9 @@
 
-import profile from './img/profile.png';
-import TitleTextLink from './TitleTextLink';
-import OutOfSiteLink from './OutOfSiteLink';
+import profile from '../img/profile.png';
+import TitleTextLink from '../TitleTextLink';
+import OutOfSiteLink from '../OutOfSiteLink';
 import "./Home.css";
-import PingAvatar from './PingAvatar';
+import PingAvatar from '../PingAvatar';
 
 function Home() {
     return (

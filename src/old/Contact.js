@@ -1,7 +1,7 @@
 import './Contact.css';
-import './OutOfSiteLink';
-import PingAvatar from './PingAvatar';
-import profile from './img/profile.png';
+import '../OutOfSiteLink';
+import PingAvatar from '../PingAvatar';
+import profile from '../img/profile.png';
 import { RiMailFill } from 'react-icons/ri';
 import { FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import ContactListItem from './ContactListItem';

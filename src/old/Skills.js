@@ -1,8 +1,8 @@
 import './Home.css';
-import OutOfSiteLink from './OutOfSiteLink';
-import TitleTextLink from './TitleTextLink';
-import PingAvatar from './PingAvatar';
-import profile from './img/profile.png';
+import OutOfSiteLink from '../OutOfSiteLink';
+import TitleTextLink from '../TitleTextLink';
+import PingAvatar from '../PingAvatar';
+import profile from '../img/profile.png';
 
 function Skills() {
     return (

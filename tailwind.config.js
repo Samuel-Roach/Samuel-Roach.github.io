@@ -9,7 +9,8 @@ module.exports = {
                 'monokai-green': '#A9DC76',
                 'monokai-blue': '#78DCE8',
                 'monokai-purple': '#AB9DF2',
-                'monokai-black': '#2D2A2E'
+                'monokai-black': '#2D2A2E',
+                'monokai-black-darker': '#222023'
             }
         },
     },
